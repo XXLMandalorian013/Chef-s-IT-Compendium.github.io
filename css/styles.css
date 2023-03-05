@@ -9,20 +9,23 @@
     color: #fff;
     
   }
-  /* Header */
-
-    /* Header */
-    header {
-      background-color: #555;
-      color: #555;
-      padding: 20px;
-    }
 
   /* Search Bar styles */
 
-    /* Search Bar menu styles */
+    /* Make the search bar right justified */
     .search-bar {
       float: right;
+    }
+
+    /* Add right margin to search bar */
+    .search-bar {
+      margin-right:15px;
+      margin-bottom:10px;
+    }
+
+    /* Change the length of the search bar */
+    input[type="text"] {
+      width: 125px;
     }
     
     /* Search Bar menu styles */
@@ -33,7 +36,7 @@
     
     /* Search Bar position */
     input[type="text"] {
-      margin-top: -12px;
+      margin-top: 5px;
     }
 
   /* Navigation menu styles */
@@ -63,17 +66,17 @@
     nav li {
       display: block;
       margin-right: 20px;
-      margin-bottom: 10px; /* Add space below each list item */
+      margin-bottom: 15px; /* Add space below each list item */
     }
 
     /* Style the txt within the nav list items to look like buttons */
     nav li a {
       display: inline-block;
       padding: 3px 8px;
-      background-color: #555;
+      background-color: #333;
       color: #fff;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 10px;
     }
 
   /* Change the background color of the nav li buttons on hover */
