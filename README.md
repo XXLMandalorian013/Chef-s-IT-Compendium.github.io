@@ -5,7 +5,9 @@ Below is my folder structure
 ```shell
 ├── css
 ├   └──styles.css
-├── images   
+├── images
+    └──favicon
+    └──index 
 ├── about.html
 ├── archive.html
 ├── categories.html

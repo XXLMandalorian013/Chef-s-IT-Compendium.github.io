@@ -1,14 +1,42 @@
 /* styles.css */
-  body {
-    background-color: #333;
-    color: #fff;
-    margin: 0;
-  }
+
+  /* h1 css */
+
+    /* h1 txt centering */
+    h1 {
+      text-align: center;
+    }
+
+  /* h2 css */
+
+    /* h2 txt centering */
+    h2 {
+      text-align: center;
+    }
   
-  a {
-    color: #fff;
-    
-  }
+    /* h2 image size */
+    #right-menu-image {
+      height: 175px;
+      width: 175px;
+    }
+
+    /* h2 image boarder */
+    #right-menu-image {
+      border: 5px solid #333;
+      border-radius: 50px;
+    }
+
+
+  /* body css */
+
+    /* body color */
+    body {
+      font-family: "Courier New", Courier, monospace;
+      background-color: #333;
+      color: #fff;
+      margin: 0;
+    }
+
 
   /* Search Bar styles */
 
@@ -25,18 +53,20 @@
 
     /* Change the length of the search bar */
     input[type="text"] {
-      width: 125px;
+      width: 150px;
+      padding: 3px;
     }
     
     /* Search Bar menu styles */
     input[type="text"] {
-      border: 2px solid #ccc;
-      border-radius: 50px;
+      border: 4px solid #333;
+      border-radius: 70px;
     }
     
     /* Search Bar position */
     input[type="text"] {
-      margin-top: 5px;
+      margin-top: 1px;
+      margin-bottom: 25px;
     }
 
   /* Navigation menu styles */
@@ -51,18 +81,18 @@
 
     /* Nav menu boarder and background color */
     nav {
-      border: 1px solid #555;
+      border: 20px solid #555;
       background-color: #555;
     }
 
-    /*Nav spacing on the index.html file */
+    /* Nav spacing on the index.html file */
     nav ul {
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
     }
 
-    /*Nav spacing between all the items in the nav menu in index.html */
+    /* Nav spacing between all the items in the nav menu in index.html */
     nav li {
       display: block;
       margin-right: 20px;
@@ -72,7 +102,7 @@
     /* Style the txt within the nav list items to look like buttons */
     nav li a {
       display: inline-block;
-      padding: 3px 8px;
+      padding: 6px 8px;
       background-color: #333;
       color: #fff;
       text-decoration: none;
