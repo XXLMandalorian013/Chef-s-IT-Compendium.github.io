@@ -4,11 +4,6 @@ body {
     color: #fff;
   }
   
-  nav li {
-    display: block;
-    margin-right: 20px;
-  }
-  
   a {
     color: #fff;
     
@@ -18,4 +13,11 @@ body {
 nav ul {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+}
+
+  nav li {
+    display: block;
+    margin-right: 20px;
   }
+
