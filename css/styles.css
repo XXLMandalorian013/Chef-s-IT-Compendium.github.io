@@ -14,12 +14,12 @@
 
     /* Make the search bar right justified */
     .search-bar {
-      float: right;
+      float: left;
     }
 
     /* Add right margin to search bar */
     .search-bar {
-      margin-right:15px;
+      margin-left:15px;
       margin-bottom:10px;
     }
 

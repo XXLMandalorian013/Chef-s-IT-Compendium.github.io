@@ -4,7 +4,8 @@ Below is my folder structure
 
 ```shell
 ├── css
-├   └──styles.css   
+├   └──styles.css
+├── images   
 ├── about.html
 ├── archive.html
 ├── categories.html
