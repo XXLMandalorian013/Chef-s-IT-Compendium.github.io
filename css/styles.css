@@ -2,6 +2,7 @@
 body {
     background-color: #333;
     color: #fff;
+    margin: 0;
   }
   
   a {
@@ -10,14 +11,47 @@ body {
   }
 
 /* Navigation menu styles */
+
+/* Nav menu left justified blocking */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* Nav menu boarder and background color */
+nav {
+  border: 1px solid #555;
+  background-color: #555;
+}
+
+/*Nav spacing on the index.html file */
 nav ul {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-  nav li {
-    display: block;
-    margin-right: 20px;
-  }
+/*Nav spacing between all the items in the nav menu in index.html */
+nav li {
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 10px; /* Add space below each list item */
+}
+
+/* Style the txt within the nav list items to look like buttons */
+nav li a {
+  display: inline-block;
+  padding: 3px 8px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Change the background color of the nav li buttons on hover */
+nav li a:hover {
+  background-color: #777;
+}
 
