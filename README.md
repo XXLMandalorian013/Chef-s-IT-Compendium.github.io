@@ -3,7 +3,6 @@ This is my personal blog, doc host website written in HTML, CSS, and hopefully a
 Below is my folder structure
 
 ```shell
-.
 ├── css
 ├   └──styles.css   
 ├── about.html
