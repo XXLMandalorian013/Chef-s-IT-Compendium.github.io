@@ -23,5 +23,5 @@ body {
 /* Navigation menu styles */
 nav ul {
     display: flex;
-    justify-content: flex-Start;
+    justify-content: flex-start;
   }
