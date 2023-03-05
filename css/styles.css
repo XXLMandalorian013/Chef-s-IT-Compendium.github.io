@@ -17,4 +17,11 @@ body {
   
   a {
     color: #fff;
+    
+  }
+
+/* Navigation menu styles */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
   }
