@@ -1,9 +1,56 @@
 
 /* style for all <div>'s in index.html */
 
-#myHeader {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: center;
-} 
+body {
+  background-color: #333;
+}
+
+/* Navigation Menu css for index.html */
+
+  /* Navigation Menu css for index.html */
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 275px;
+    height: 100%;
+    background-color: #555;
+  }
+
+  /* Nav image css in the nav menu for index.html */
+  .nav-image {
+    width: 150px;
+    height: 150px;
+    border: solid #333;
+    border-radius:12px; /* Rounded corners */
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+
+  /* Nav mgs css in the nav menu for index.html */
+  .nav-msg {
+    color: white;
+    margin-left: 20px;
+  }
+
+  /* Anchors css in the nav menu for index.html */
+  .nav-menu a {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-left: 70px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none; /* Removed the underline */
+    border-radius:12px; /* Rounded corners */
+    width:70px; /* Set a fixed width for the buttons */
+    }
+
+    /* Anchors hover css in the nav menu for index.html */
+    .nav-menu a:hover {
+      background-color: #424242;
+    }
+
