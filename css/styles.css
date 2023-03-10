@@ -3,6 +3,7 @@
 
 body {
   background-color: #333;
+  font-family: "Georgia";
 }
 
 /* Navigation Menu css for index.html */
@@ -17,6 +18,7 @@ body {
     width: 275px;
     height: 100%;
     background-color: #555;
+    text-align: center;
   }
 
   /* Nav image css in the nav menu for index.html */
@@ -32,7 +34,7 @@ body {
   /* Nav mgs css in the nav menu for index.html */
   .nav-msg {
     color: white;
-    margin-left: 20px;
+    margin-right: 50px;
   }
 
   /* Anchors css in the nav menu for index.html */
@@ -40,7 +42,7 @@ body {
     display: block;
     padding: 10px 20px;
     margin: 10px;
-    margin-left: 70px;
+    margin-left: 80px;
     background-color: #333;
     color: white;
     text-align: center;
