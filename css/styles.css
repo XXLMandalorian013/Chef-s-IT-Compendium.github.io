@@ -10,8 +10,8 @@
 
 /* Start of navigation Menu css for all pages */
 
-  /* Navigation Menu css for for all pages */
-  .nav-menu {
+  /* left side menu bar css for all pages */
+  .div-bar {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -20,59 +20,115 @@
     width: 275px;
     height: 100%;
     background-color: #555;
-    text-align: center;
   }
 
-  /* Nav image css in the nav menu for all pages */
-  .nav-image {
-    width: 150px;
-    height: 150px;
-    border: solid #333;
+  /* Nav search bar css in the nav menu for all pages */
+  .search-bar {
+    width: 175px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #333;
+    border: solid #555;
     border-radius:12px; /* Rounded corners */
-    margin-top: 15px;
-    margin-left: 60px;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+
+  /* Nav search bar border css in the nav menu for all pages */
+  .search-bar {
+    border-width: 2px;
+  }
+
+  /* Nav search bar hover css in the nav menu for all pages */
+  .search-bar:hover {
+    border-radius: 50px;
+  }
+
+ /* Nav image css in the nav menu for all pages */
+ .nav-image {
+  width: 150px;
+  height: 150px;
+  border: solid #333;
+  border-radius:12px; /* Rounded corners */
+  margin-top: 25px;
+  margin-left: 60px;
+  }
+
+  /* image hover txt wrap css in the nav menu for all pages */
+  .logo-hover-wrap {
+    position: relative;
+  }
+  
+  /* image hover txt cap css in the nav menu for all pages */
+  .logo-hover-cap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #555;
+    color: #ffffff;
+    display: none;
+    text-align: center;
+    width: 175px;
+    margin-left: 170px;
+    margin-bottom: 110px;
+    border-radius: 20px;
+    border-color: #333;
+    border-style: outset;
+  }
+  
+  /* image hover txt hover css in the nav menu for all pages */
+  .logo-hover-wrap:hover .logo-hover-cap {
+    display: block;
   }
 
   /* Nav mgs css in the nav menu for all pages */
   .nav-msg {
     color: #ffffff;
     margin-right: 50px;
+    text-align: center;
   }
 
-  /* Anchors css in the nav menu for all pages */
-  .nav-menu a {
+  /* Navigation links css for for all pages */
+  .nav-button {
     display: block;
     padding: 10px 20px;
-    margin: 10px;
-    margin-left: 80px;
+    margin: 20px;
+    margin-left: 70px;
     background-color: #333;
     color: #ffffff;
     text-align: center;
     text-decoration: none; /* Removed the underline */
     border-radius:12px; /* Rounded corners */
-    width:70px; /* Set a fixed width for the buttons */
-    }
-
-    /* Anchors hover css in the nav menu for all pages */
-    .nav-menu a:hover {
-      background-color: #424242;
-    }
-
-  /* Social Media links css in the nav menu for all pages */
-  ul.social-links {
-    display: inline;
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-left: 60px;
+    width:80px; /* Set a fixed width for the buttons */
   }
 
+  /* Anchors hover css in the nav menu for all pages */
+  .nav-button:hover {
+    border-radius: 20px;
+  }
+
+  /* social media css in the nav menu for all pages */
+  .social-links-container {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  }
+
+  /* social media hover css in the nav menu for all pages */
+  .social-links :hover {
+    padding-top: 1px;
+    border-radius: 10px;
+  }
 
   /* Copyright css in the nav menu for all pages */
   .copyright-msg {
     font-size: 10px;
     color: #ffffff;
     margin-right: 50px;
+    text-align: left;
+    bottom: 0%;
+    position: fixed;
   }
 
 /* End of navigation Menu css for all pages */
