@@ -2,7 +2,7 @@
 <html>
 <head>
   <!-- Websites browser tab name -->
-  <title>Chef's IT Compendium | Docs</title>
+  <title>Chef's IT Compendium | About</title>
   <!-- A link to my styles.css page -->
   <link rel="stylesheet"href="css\styles.css">
   <!-- A link to my favicons -->
@@ -12,13 +12,16 @@
   <link rel="manifest" href="images/favicon//site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <!-- A link to my search.js script -->
+  <link rel="stylesheet"href="javascript\search.js">
 </head>
 <body>
   <!-- Websites left side divider linked to styles.css -->
   <div class="div-bar">
   <!-- Websites search bar linked to styles.css -->
-  <form>
-    <input type="search" placeholder="Does not work yet..." class="search-bar" > </input>
+  <form id="search">
+    <input type="text" id="query" placeholder="Enter search query">
+    <input type="submit" value="Search">
   </form>
   <!-- Websites picture linked to styles.css -->
   <div class="logo-hover-wrap">
@@ -50,6 +53,13 @@
   <ul class="copyright-msg">
     Copyright © Drew A. McClellan 2023
   </ul>
+  </div>
+  <!-- The about me txt linked to styles.css -->
+  <div class="main-box-style">
+    <div class="scroll-box">
+      <h1>Hello, I'm Drew McClellan. I used to be a Chef for over a decade. I now work in IT and have for over three years. I have an unquenchable 
+        thirst for IT knowledge and a passion for PowerShell and automation.</h1>
+    </div>
   </div>
 </body>
 </html>

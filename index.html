@@ -2,7 +2,7 @@
 <html>
 <head>
   <!-- Websites browser tab name -->
-  <title>Chef's IT Compendium | Docs</title>
+  <title>Chef's IT Compendium | Home</title>
   <!-- A link to my styles.css page -->
   <link rel="stylesheet"href="css\styles.css">
   <!-- A link to my favicons -->
@@ -12,14 +12,21 @@
   <link rel="manifest" href="images/favicon//site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <!-- A link to my search.js script -->
+  <link rel="stylesheet"href="javascript\search.js">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
   <!-- Websites left side divider linked to styles.css -->
   <div class="div-bar">
   <!-- Websites search bar linked to styles.css -->
-  <form>
-    <input type="search" placeholder="Does not work yet..." class="search-bar" > </input>
-  </form>
+  <form id="search">
+    <input type="text" id="query" placeholder="Enter search query">
+    <input type="submit" value="Search">
+</form>
+<div id="results"></div>
+
+<script src="/path/to/your/script.js"></script>
   <!-- Websites picture linked to styles.css -->
   <div class="logo-hover-wrap">
       <img src="images/index/me animated.jpg" alt="nav menu image/logo" class="nav-image" >
