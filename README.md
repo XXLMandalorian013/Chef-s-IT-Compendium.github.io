@@ -7,7 +7,10 @@ Below is my folder structure
 ├   └──styles.css
 ├── images
     └──favicon
-    └──index 
+    └──index
+    └──social
+├── javascript
+├    └──search.js
 ├── about.html
 ├── archive.html
 ├── categories.html
