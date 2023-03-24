@@ -9,16 +9,6 @@
 
 /* End of body css for all pages */
 
-/* Start of overflow scroll box css for all pages */
-
-  /* Overflow scroll box css for all pages */
-  .scroll-box {
-    overflow: scroll;
-    height: 100%;
-  }
-
-/* End of overflow scroll box css for all pages */
-
 /* Start of navigation Menu css for all pages */
 
   /* left side menu bar css for all pages */
@@ -149,22 +139,20 @@
   /* style for the center of all pages */
   .main-box-style {
     display: flex;
-    flex-direction: column;
-    position: fixed;
     top: 20px; /* keeps the nav menu pushed to the top */
-    bottom: 20px; /* keeps the nav menu pushed to the top */
     font-size: 11px;
     background-color: #555;
-    border-color: #333;
-    border-radius: 30px;
-    border-width: 120px;
+    border-radius: 20px;
     width: 1550px;
-    height: 100%;
+    height: auto;
     margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 
+  /* style for h1 for the center of all pages */
   .main-box-style h1 {
-    margin-top: 300px;
+    margin-top: 50px;
     margin-bottom: 300px;
     margin-left: 300px;
     margin-right: 300px;
@@ -173,3 +161,14 @@
   }
 
 /* End of about me css for all pages */
+
+
+/* Start of overflow scroll box css for all pages */
+
+  /* Overflow scroll box css for all pages */
+  /*.scroll-box {
+    overflow: scroll;
+    height: 100%;
+  }
+
+/* End of overflow scroll box css for all pages */
