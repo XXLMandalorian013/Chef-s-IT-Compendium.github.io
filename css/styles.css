@@ -139,7 +139,6 @@
   /* style for the center of all pages */
   .main-box-style {
     display: flex;
-    top: 20px; /* keeps the nav menu pushed to the top */
     font-size: 11px;
     background-color: #555;
     border-radius: 20px;
@@ -151,24 +150,13 @@
   }
 
   /* style for h1 for the center of all pages */
-  .main-box-style h1 {
+  .Main-Page-h {
     margin-top: 50px;
-    margin-bottom: 300px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: #000000;
     text-align: center;
   }
 
 /* End of about me css for all pages */
 
-
-/* Start of overflow scroll box css for all pages */
-
-  /* Overflow scroll box css for all pages */
-  /*.scroll-box {
-    overflow: scroll;
-    height: 100%;
-  }
-
-/* End of overflow scroll box css for all pages */
