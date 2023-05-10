@@ -134,6 +134,49 @@
 
 /* End of navigation Menu css for all pages */
 
+/* Start of the pull down Menu css for the docs page */
+.drop-down-menu {
+  display: inline-block;
+}
+
+.drop-down-menu .button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.drop-down-menu .button:hover,
+.drop-down-menu .button:focus {
+  background-color: #3e8e41;
+}
+
+.drop-down-menu .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop-down-menu .sub-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-down-menu .sub-menu a:hover {
+  background-color: #f1f1f1
+}
+
+.drop-down-menu:hover .sub-menu {
+  display: block;
+}
+/* End of the pull down Menu css for the docs page */
+
 /* Start of about me css for all pages */
 
   /* style for the center of all pages */
@@ -160,3 +203,32 @@
 
 /* End of about me css for all pages */
 
+  /* style for h1 for the center of all pages */
+  #pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #pagination button {
+      background-color: #333;
+      color: #ffffff;
+      width: 50px;
+      height: 20px;
+      border-radius:12px; /* Rounded corners */
+      margin-left: 40px;
+      margin-bottom: 10px;
+  }
+  
+  #pagination button.active {
+    background-color: #333;
+  }
+  
+  #pagination button:hover:not(.active) {
+    background-color: #111;
+  }
+/* End of about me css for all pages */
