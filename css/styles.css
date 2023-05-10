@@ -203,3 +203,32 @@
 
 /* End of about me css for all pages */
 
+  /* style for h1 for the center of all pages */
+  #pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #pagination button {
+      background-color: #333;
+      color: #ffffff;
+      width: 50px;
+      height: 20px;
+      border-radius:12px; /* Rounded corners */
+      margin-left: 40px;
+      margin-bottom: 10px;
+  }
+  
+  #pagination button.active {
+    background-color: #333;
+  }
+  
+  #pagination button:hover:not(.active) {
+    background-color: #111;
+  }
+/* End of about me css for all pages */
