@@ -20,7 +20,19 @@ function showPage(page) {
 
 function showPagination() {
   pagination.innerHTML = '';
-  for (var i = 1; i <= numberOfPages; i++) {
+  // Add previous button
+  if (currentPage > 1) {
+    var prevButton = document.createElement('button');
+    prevButton.innerText = 'Prev';
+    prevButton.addEventListener('click', function() {
+      showPage(currentPage - 1);
+    });
+    pagination.appendChild(prevButton);
+  }
+  // Add page buttons
+  var start = Math.max(currentPage - 1, 1);
+  var end = Math.min(currentPage + 1, numberOfPages);
+  for (var i = start; i <= end; i++) {
     var button = document.createElement('button');
     button.innerText = i;
     if (i === currentPage) {
@@ -30,6 +42,15 @@ function showPagination() {
       showPage(parseInt(this.innerText));
     });
     pagination.appendChild(button);
+  }
+  // Add next button
+  if (currentPage < numberOfPages) {
+    var nextButton = document.createElement('button');
+    nextButton.innerText = 'Next';
+    nextButton.addEventListener('click', function() {
+      showPage(currentPage + 1);
+    });
+    pagination.appendChild(nextButton);
   }
 }
 
