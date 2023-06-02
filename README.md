@@ -1,8 +1,10 @@
-This is my blog, doc host website written in HTML, CSS, and hopefully a little JAVA Script.
+This is my blog and doc website written in HTML, CSS, and hopefully a little JAVA Script.
 
 Below is my folder structure
 
 ```shell
+├── Blogs
+├   └──2023
 ├── css
 ├   └──styles.css
 ├── images
