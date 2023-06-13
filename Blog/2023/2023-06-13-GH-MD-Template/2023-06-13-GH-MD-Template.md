@@ -1,4 +1,4 @@
-<img src="https://github.com/XXLMandalorian013/Chef-s-IT-Compendium.github.io/blob/main/Blog/2023/2023-06-13-MD-Template/images/MD-Example.png"  width="300" height="300">
+<img src="https://github.com/XXLMandalorian013/Chef-s-IT-Compendium.github.io/blob/main/Blog/2023/2023-06-13-GH-MD-Template/images/MD-Example.png"  width="300" height="300">
 
 ## Github Flavored Markdown Template :octocat: :page_with_curl:
 
