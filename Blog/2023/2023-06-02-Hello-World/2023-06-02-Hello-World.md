@@ -8,9 +8,4 @@ To get my website to what it is now, I heavily referenced [w3schools](https://ww
 
 I am super excited to be able to roll this out finally, and I already have several future posts up my sleeve!
 
-#Blog
-#Blog2023
-#GitHub
-#GitHub Pages
-#HTML
-#CSS
+#Blog #Blog2023 #GitHub #GitHubPages #HTML #CSS
