@@ -6,4 +6,4 @@ As each blog post I write is in GitHub-flavored Markdown, I wanted a quicker ref
 
 I hope you get some use out of it and it saves you time!
 
-#Blog #Blog2023 #Markdown #GitHubPages
+#Blog #Blog2023 #Markdown #Template #GitHubPages
