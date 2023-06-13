@@ -6,4 +6,6 @@ As each blog post I write is in GitHub-flavored Markdown, I wanted a quicker ref
 
 I hope you get some use out of it and it saves you time!
 
+[:back: to Chef's IT Compendium](https://xxlmandalorian013.github.io/Chef-s-IT-Compendium.github.io/)
+
 #Blog #Blog2023 #Markdown #Template #GitHubPages
