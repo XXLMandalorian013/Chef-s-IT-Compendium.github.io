@@ -5,6 +5,7 @@ Below is my folder structure
 ```shell
 ├── Blogs
 ├   └──2023
+├   └──2024
 ├── css
 ├   └──styles.css
 ├── images
