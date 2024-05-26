@@ -69,15 +69,21 @@
           <h1 class="Main-Page-h">
             <img src="Blog\2024\2024-05-25-Windows-Terminal-Post\Manually-Install-Windows-Terminal.png" alt="Manually-Install-Windows-Terminal.png" style="display: block; margin: auto;" width="100" height="100"><br>
             Had fun dabbling with Docker and spun up a Pii cloud scanner tool for work. This required a Windows Server (2022), and in my case, as a VM, Windows Subsystem for Linux (WSL2),
-            Ubuntu more specifically and I picked Windows Terminal to access and manage the ubuntu VM. I am a big fan of Terminal but had not tried to use it on a Windows Server and
+            Ubuntu more specifically and I picked Windows Terminal to access and manage the ubuntu VM.<br>
+            <br>
+            I am a big fan of Terminal but had not tried to use it on a Windows Server and
             learned a few things like the Windows Store not being supported on Windows Server 2019 and higher, as well as WinGet only being accessible to Windows 10/11. So, I decided I
             would create a PowerShell script to download/install it manually! This was a fun little project as I had not delt with downloading/installing anything that used APPX,
             a file format that is used to package Windows applications. You may also know AppX as (RAD), Rapid Application Development. The only downfall with manually installing
-            Terminal is that it does not get automatically updated. That said, I tried to create my install script as cookie cutter as possible so if anyone would only need to change
+            Terminal is that it does not get automatically updated.<br>
+            <br>
+            That said, I tried to create my install script as cookie cutter as possible so if anyone would only need to change
             a variable or two in each function to install the latest version as they are released. It was a bit easier for the uninstall script as it should not need to have anything changed
             to removed Terminal regardless of the version.<br>
+            <br>
             Click <a href="https://github.com/XXLMandalorian013/PowerShellScripts/blob/main/LocalScripts/Software/Invoke-WebRequest/Terminal/64Bit-v1.20.11271.0/Install-Terminal-AppX-64Bit-v1.20.11271.0.ps1/Install-Terminal-AppX-64Bit-v1.20.11271.0.ps1" >here</a> to see the code I write to dowload and install it!<br>
             Click <a href="https://github.com/XXLMandalorian013/PowerShellScripts/blob/main/LocalScripts/Software/Uninstall/Terminal/Uninstall-MS-Terminal-AppX.ps1/Uninstall-MS-Terminal-AppX.ps1.ps1" >here</a> to see the code on how to remove it!<br>
+            <br>
             #Blog #Blog2024 #WindowsTerminal #Docker #Containers #WindowsServer #WindowsServer2022 #WSL #WLS2 #Linux #Ubuntu #VM #WinGet #GitHubPages
           </h1>
         </div>
