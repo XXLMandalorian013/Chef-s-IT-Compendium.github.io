@@ -63,6 +63,54 @@
       <!-- Future Blog post start -->
 
       <!-- Future Blog post end -->
+      
+      <!-- Blog post start -->
+      <div class="main-box-style">
+        <div class="scroll-box">
+          <h1 class="Main-Page-h">
+            <img src="Blog\2026\2026-11-09-PiHole\Images\Arch-Linux.png.png" alt="PiHole.png" style="display: block; margin: auto;" width="100" height="100">
+            
+            <br>
+            I have been using two RaspberryPi3Bs running PiHoles as my DNS servers for three-ish years now. 
+            I have rebuild these servers a few times now but I think I have dialed in their final forms. 
+            Before, I had HA but was specifying each PiHole's IP in my router. 
+            What spawned the last rebuilds is when I noticed some IOT would have DNS break for longer then I wished it to when one of the Pis when down for regular maintenance or have a stuck service.
+            <br>
+
+            <br>
+            This time around I have a floating IP via VRRP and KeepAliveD. 
+            If you are interested in PiHole, I have attached two guides where I cover the step to spin up PiHole in persistent Docker Volumes, forward DNS to 9s via Unbound, configure KeepAliveD so if/when a PiHole/DNS server goes down, no one is the wiser as well as syncing the changes from the primary to the secondary. 
+            I have also included some compose and config files as well as a script that I leveraged in these build outs.
+            <br>
+
+            <br>
+            Click <a href="https://github.com/XXLMandalorian013/Chef-s-IT-Compendium.github.io/blob/main/Blog/2026/2026-11-09-PiHole/Pihole-Example" >here</a> to see my guide on how to do so as well as the example files.
+            <br>
+
+            <br>
+            Below are also some links to some BASH Shell scripts I wrote to fast track setting up a static eth connection as well as installing Docker.
+            <a href="https://github.com/XXLMandalorian013/Linux/blob/main/Scripts/Network/nmcli/ethernet/connect_ethernet_static.sh" ></a>
+            <a href="https://github.com/XXLMandalorian013/Linux/blob/main/Scripts/Software/Installers/docker/64_bit/install_docker_64bit.sh" ></a>
+            <br>
+
+            <br>
+            These little server can do so much with on not much power draw. 
+            They also run NUT, Network UPS Tools to spin up and down devices on the UPS they control. 
+            I think my next venture for my Pi's will be leveraging TailScale to allow my phone to leverage my PiHoles while I am off the LAN as all the blocked ads has really spoiled me.
+            <br>
+
+            #Blog #Blog2026 #Linux #PiHole #How-To
+          </h1>
+        </div>
+      </div>
+      <!-- Blog post end -->
+
+
+
+
+
+
+
       <!-- Blog post start -->
       <div class="main-box-style">
         <div class="scroll-box">
